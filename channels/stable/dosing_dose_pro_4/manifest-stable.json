@@ -2,10 +2,10 @@
   "schema": "aql.ota.product-manifest.v1",
   "brand": "AquaLight",
   "channel": "stable",
-  "version": "1.0.2",
-  "tag": "dosing_dose_pro_4-v1.0.2",
+  "version": "1.0.3",
+  "tag": "dosing_dose_pro_4-v1.0.3",
   "releaseRepo": "ozdemirrrcemal-cmyk/AquaLight-OTA-Releases",
-  "generatedAt": "2026-08-17T08:46:46+00:00",
+  "generatedAt": "2026-08-17T14:32:37+00:00",
   "platform": {
     "framework": "arduino-esp32",
     "core": "3.3.9",
@@ -57,19 +57,19 @@
         "hardwareRevision": "2.0"
       },
       "firmware": {
-        "version": "1.0.2",
-        "filename": "AquaLight-dosing_dose_pro_4-v1.0.2-ota.bin",
-        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/dosing_dose_pro_4-v1.0.2/AquaLight-dosing_dose_pro_4-v1.0.2-ota.bin",
-        "sha256": "bf13e2eb6fb6b9d30fccab017bf3027ecaa81269f5d02a999605d41c26591d19",
-        "size": 1700016,
+        "version": "1.0.3",
+        "filename": "AquaLight-dosing_dose_pro_4-v1.0.3-ota.bin",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/dosing_dose_pro_4-v1.0.3/AquaLight-dosing_dose_pro_4-v1.0.3-ota.bin",
+        "sha256": "555326b3d674d2037d883e1acb655d4c5a425a51d45ba5762b1c6b8cb646c722",
+        "size": 1700128,
         "format": "esp32-app-bin",
         "otaSlotCompatible": true
       },
       "factory": {
-        "filename": "AquaLight-dosing_dose_pro_4-v1.0.2-factory.zip",
-        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/dosing_dose_pro_4-v1.0.2/AquaLight-dosing_dose_pro_4-v1.0.2-factory.zip",
-        "sha256": "87d01849d420d28b18e32c6a04691bb957ccd9c8080ab3f6df0928dfae85681b",
-        "size": 1087710
+        "filename": "AquaLight-dosing_dose_pro_4-v1.0.3-factory.zip",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/dosing_dose_pro_4-v1.0.3/AquaLight-dosing_dose_pro_4-v1.0.3-factory.zip",
+        "sha256": "f798dce36e2542584f356c2f8468ed9b9b97dde9e20a0b32d4e0af24c4084806",
+        "size": 1087929
       }
     }
   ],
@@ -78,15 +78,15 @@
     "defaultLocale": "tr",
     "items": [
       {
-        "tr": "Kalibrasyon ekranı güncellendi",
-        "en": "Kalibrasyon ekranı güncelleme"
+        "tr": "Kalibrasyon ekranı yenilendi",
+        "en": "Kalibrasyon ekranı yenilendi"
       }
     ]
   },
   "signature": {
     "scheme": "ECDSA_P256_SHA256",
     "keyId": "aql-ota-manifest-2026-01",
-    "payloadHash": "9ece2e278a5cc65154022d0dabe04ab42091c21f33004b31a041a276cc2e10ea",
-    "value": "MEQCIC1X91oFwa676XmKbNKZnthSecTtMCpztz9rP2HcX/tLAiApmULsk1s9YHm/dg7U9/P1a8ck60p3CVo6O51mq5dXlQ=="
+    "payloadHash": "b16376cac1b3827a40c9cd67dd8b6fd4a9318f1061c01a0751d4eed9bd2dec7d",
+    "value": "MEUCIQCsGdIhwcWPLrDiskTBHtxRNZQNMqQL0U9d8rnrrdtnfQIgL2iPsMX//dBlX9qyCkmQah1ZbnvioyobRdbK3FDgP7Q="
   }
 }
