@@ -2,10 +2,10 @@
   "schema": "aql.ota.product-manifest.v1",
   "brand": "AquaLight",
   "channel": "stable",
-  "version": "1.0.10",
-  "tag": "dosing_dose_pro_4-v1.0.10",
+  "version": "1.0.11",
+  "tag": "dosing_dose_pro_4-v1.0.11",
   "releaseRepo": "ozdemirrrcemal-cmyk/AquaLight-OTA-Releases",
-  "generatedAt": "2026-08-18T22:50:14+00:00",
+  "generatedAt": "2026-08-22T14:29:20+00:00",
   "platform": {
     "framework": "arduino-esp32",
     "core": "3.3.9",
@@ -57,19 +57,19 @@
         "hardwareRevision": "2.0"
       },
       "firmware": {
-        "version": "1.0.10",
-        "filename": "AquaLight-dosing_dose_pro_4-v1.0.10-ota.bin",
-        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/dosing_dose_pro_4-v1.0.10/AquaLight-dosing_dose_pro_4-v1.0.10-ota.bin",
-        "sha256": "d7d041053cb7407a4aca7efcbdab73b25a6ba6ab357c44da9bf79a66d56f21ab",
-        "size": 1700688,
+        "version": "1.0.11",
+        "filename": "AquaLight-dosing_dose_pro_4-v1.0.11-ota.bin",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/dosing_dose_pro_4-v1.0.11/AquaLight-dosing_dose_pro_4-v1.0.11-ota.bin",
+        "sha256": "543e8f8d733f44a9a5f1034299f3861756554aca979167ad42ee6dca588cea58",
+        "size": 1710496,
         "format": "esp32-app-bin",
         "otaSlotCompatible": true
       },
       "factory": {
-        "filename": "AquaLight-dosing_dose_pro_4-v1.0.10-factory.zip",
-        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/dosing_dose_pro_4-v1.0.10/AquaLight-dosing_dose_pro_4-v1.0.10-factory.zip",
-        "sha256": "4c141883deccfee8cbda78d0600e88f0991fb5ace5c611c6a715269f5517e02d",
-        "size": 1088122
+        "filename": "AquaLight-dosing_dose_pro_4-v1.0.11-factory.zip",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/dosing_dose_pro_4-v1.0.11/AquaLight-dosing_dose_pro_4-v1.0.11-factory.zip",
+        "sha256": "75d5cba5f818aaddf30359dbc725feb951eb62a8f637b21a124ce010edf121d8",
+        "size": 1095606
       }
     }
   ],
@@ -78,27 +78,15 @@
     "defaultLocale": "tr",
     "items": [
       {
-        "tr": "Güncelleme ekranı yenilendi",
-        "en": "Update screen redesigned"
-      },
-      {
-        "tr": "Cihaz kararlılığı iyileştirildi",
-        "en": "Device stability improved"
-      },
-      {
-        "tr": "Bağlantı hatası giderildi",
-        "en": "Connection error fixed"
-      },
-      {
-        "tr": "Donma sorunu giderildi",
-        "en": "Freezing issue fixed"
+        "tr": "Dozaj pompası ekranı güncellendi",
+        "en": "Dozaj pompası ekranı güncellendi"
       }
     ]
   },
   "signature": {
     "scheme": "ECDSA_P256_SHA256",
     "keyId": "aql-ota-manifest-2026-01",
-    "payloadHash": "34b88f7d92fa0113fc4d18721c204e6173a0afd4e12843f89c21a8de88d7259e",
-    "value": "MEUCICJ2xxQbCA1FZMqHGPSQOZVkp95/DLssRrShQvIauUcUAiEA+9JOBYg5wJvqNhHpwVN/PkeC6sz09N6daa26diQR6xk="
+    "payloadHash": "6b48a2fa6c0c05615d846dc984ec3f62dc251db957b5da4c37e6f7be567a5656",
+    "value": "MEUCIEiEP6G29omHAzX8als0m+/RsVZgikoBd4wqQ9LktwDlAiEArm0PXUhyuQdEcqZMlpryZBDdn9rXm1YeirpPLZ+3cgE="
   }
 }
