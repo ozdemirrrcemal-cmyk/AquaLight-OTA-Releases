@@ -1,0 +1,96 @@
+{
+  "schema": "aql.ota.product-manifest.v1",
+  "brand": "AquaLight",
+  "channel": "stable",
+  "version": "1.0.4",
+  "tag": "dosing_dose_pro_4-v1.0.4",
+  "releaseRepo": "ozdemirrrcemal-cmyk/AquaLight-OTA-Releases",
+  "generatedAt": "2026-08-29T22:01:40+00:00",
+  "platform": {
+    "framework": "arduino-esp32",
+    "core": "3.3.9",
+    "platform": "pioarduino/platform-espressif32#55.03.39",
+    "partitionTable": "aql_ota_16mb",
+    "normalOtaAssetType": "firmware.bin"
+  },
+  "artifacts": [
+    {
+      "env": "dosing_dose_pro_4",
+      "product": {
+        "productKey": "DOSING_DOSE_PRO_4",
+        "productId": "com.aqualight.dosing.dose_pro_4",
+        "brand": "AquaLight",
+        "family": "dosing",
+        "line": "dose_pro",
+        "model": "dose_pro_4",
+        "displayName": "AquaLight Dose Pro 4",
+        "skuCode": "AQL-D-DP4-GLB-BLK",
+        "hardwareRevision": "2.0",
+        "capabilities": {
+          "light": false,
+          "manualLight": false,
+          "lightProgram": false,
+          "lightPresets": false,
+          "lightSimulation": false,
+          "fan": false,
+          "cooling": false,
+          "temperature": false,
+          "standaloneTimer": false,
+          "dosing": true,
+          "timeSync": true,
+          "ota": true
+        },
+        "limits": {
+          "lightChannelCount": 0,
+          "fanOutputCount": 0,
+          "temperatureSensorCount": 0,
+          "timerChannelCount": 0,
+          "dosingChannelCount": 4
+        }
+      },
+      "compatibility": {
+        "productKey": "DOSING_DOSE_PRO_4",
+        "productId": "com.aqualight.dosing.dose_pro_4",
+        "family": "dosing",
+        "line": "dose_pro",
+        "model": "dose_pro_4",
+        "hardwareRevision": "2.0"
+      },
+      "firmware": {
+        "version": "1.0.4",
+        "filename": "AquaLight-dosing_dose_pro_4-v1.0.4-ota.bin",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/dosing_dose_pro_4-v1.0.4/AquaLight-dosing_dose_pro_4-v1.0.4-ota.bin",
+        "sha256": "7a420b3bfdfce55903829a031ff737e0b928f464fac9b586edeb7f9503ce371f",
+        "size": 1717664,
+        "format": "esp32-app-bin",
+        "otaSlotCompatible": true
+      },
+      "factory": {
+        "filename": "AquaLight-dosing_dose_pro_4-v1.0.4-factory.zip",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/dosing_dose_pro_4-v1.0.4/AquaLight-dosing_dose_pro_4-v1.0.4-factory.zip",
+        "sha256": "4a68f49663b3859f132be52f374d6f74be366febe27ffad762a1766d279af4e9",
+        "size": 1101188
+      }
+    }
+  ],
+  "releaseNotes": {
+    "schema": "aql.ota.release-notes.v1",
+    "defaultLocale": "tr",
+    "items": [
+      {
+        "tr": "OTA geri dönüş koruması etkinleştirildi",
+        "en": "OTA rollback protection enabled"
+      },
+      {
+        "tr": "Güncelleme sonrası sağlık doğrulaması iyileştirildi",
+        "en": "Post-update health validation improved"
+      }
+    ]
+  },
+  "signature": {
+    "scheme": "ECDSA_P256_SHA256",
+    "keyId": "aql-ota-manifest-2026-01",
+    "payloadHash": "5ce72e8b5f31be6dfa64b153db39e07b57b077eec582bd512df9c8bceeaecfcb",
+    "value": "MEUCIBDW+l2yVFN3l7l/L2Lnj2pi5nueRQistgvHy7BpiyQZAiEAwuofja+jrku42GIxWFsx4tjWnwA5Y2KieIfkAWAAjNk="
+  }
+}
