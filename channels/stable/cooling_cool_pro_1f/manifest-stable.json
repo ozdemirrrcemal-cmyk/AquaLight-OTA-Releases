@@ -2,10 +2,10 @@
   "schema": "aql.ota.product-manifest.v1",
   "brand": "AquaLight",
   "channel": "stable",
-  "version": "1.0.2",
-  "tag": "cooling_cool_pro_1f-v1.0.2",
+  "version": "1.0.9",
+  "tag": "cooling_cool_pro_1f-v1.0.9",
   "releaseRepo": "ozdemirrrcemal-cmyk/AquaLight-OTA-Releases",
-  "generatedAt": "2026-09-06T09:37:32+00:00",
+  "generatedAt": "2026-09-06T16:15:28+00:00",
   "platform": {
     "framework": "arduino-esp32",
     "core": "3.3.9",
@@ -57,19 +57,19 @@
         "hardwareRevision": "2.0"
       },
       "firmware": {
-        "version": "1.0.2",
-        "filename": "AquaLight-cooling_cool_pro_1f-v1.0.2-ota.bin",
-        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/cooling_cool_pro_1f-v1.0.2/AquaLight-cooling_cool_pro_1f-v1.0.2-ota.bin",
-        "sha256": "b36f31adaa5431892d601787a51f210ee9d4e67ed8fd1424b7d2320a063a12d3",
-        "size": 1677632,
+        "version": "1.0.9",
+        "filename": "AquaLight-cooling_cool_pro_1f-v1.0.9-ota.bin",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/cooling_cool_pro_1f-v1.0.9/AquaLight-cooling_cool_pro_1f-v1.0.9-ota.bin",
+        "sha256": "5658f2493d940f6aa8bdaebcaa9113e5fb6bca550a32aa1bd0189185fcc61c5e",
+        "size": 1683376,
         "format": "esp32-app-bin",
         "otaSlotCompatible": true
       },
       "factory": {
-        "filename": "AquaLight-cooling_cool_pro_1f-v1.0.2-factory.zip",
-        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/cooling_cool_pro_1f-v1.0.2/AquaLight-cooling_cool_pro_1f-v1.0.2-factory.zip",
-        "sha256": "dfa075176db79bc30e3e311ab9f1fed066d42b1b25a6d2b3553fe7675bbfe5ad",
-        "size": 1074554
+        "filename": "AquaLight-cooling_cool_pro_1f-v1.0.9-factory.zip",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/cooling_cool_pro_1f-v1.0.9/AquaLight-cooling_cool_pro_1f-v1.0.9-factory.zip",
+        "sha256": "5dae3679fd9fcc76f7f511db033753fa271139a20eb99d7eb85833327753a015",
+        "size": 1079285
       }
     }
   ],
@@ -98,7 +98,7 @@
   "signature": {
     "scheme": "ECDSA_P256_SHA256",
     "keyId": "aql-ota-manifest-2026-01",
-    "payloadHash": "f522c293c05b57da2c445a0ae59a21e3a2a1ea325e14b561abcb7420c2aac76d",
-    "value": "MEYCIQCeCYD0SH4XU/r60xKemxoZ8X93hXTAF8gWDR6r6Yl7WwIhANNFZNrBRqFQ5R57EwZRCWsZmxxLqAtjekQw6QDginMF"
+    "payloadHash": "86621faa27933aace2dd97fcbc7c2e33db1efce60297022902f4015f706c4b10",
+    "value": "MEUCICKPpsd0Zl7bGTdS67cgNkUit9CCK/nJR3w50BaUtt3vAiEA83TDoQ4hhmrFzjrLB7r+DggADoUP8kwFYDrXLviVGkQ="
   }
 }
