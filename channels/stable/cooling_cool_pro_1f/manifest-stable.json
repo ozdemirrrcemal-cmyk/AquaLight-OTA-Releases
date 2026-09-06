@@ -1,0 +1,104 @@
+{
+  "schema": "aql.ota.product-manifest.v1",
+  "brand": "AquaLight",
+  "channel": "stable",
+  "version": "1.0.2",
+  "tag": "cooling_cool_pro_1f-v1.0.2",
+  "releaseRepo": "ozdemirrrcemal-cmyk/AquaLight-OTA-Releases",
+  "generatedAt": "2026-09-06T09:37:32+00:00",
+  "platform": {
+    "framework": "arduino-esp32",
+    "core": "3.3.9",
+    "platform": "pioarduino/platform-espressif32#55.03.39",
+    "partitionTable": "aql_ota_16mb",
+    "normalOtaAssetType": "firmware.bin"
+  },
+  "artifacts": [
+    {
+      "env": "cooling_cool_pro_1f",
+      "product": {
+        "productKey": "COOLING_COOL_PRO_1F",
+        "productId": "com.aqualight.cooling.cool_pro_1f",
+        "brand": "AquaLight",
+        "family": "cooling",
+        "line": "cool_pro",
+        "model": "cool_pro_1f",
+        "displayName": "AquaLight Cool Pro 1 Fan",
+        "skuCode": "AQL-C-CP1F-GLB-BLK",
+        "hardwareRevision": "2.0",
+        "capabilities": {
+          "light": false,
+          "manualLight": false,
+          "lightProgram": false,
+          "lightPresets": false,
+          "lightSimulation": false,
+          "fan": true,
+          "cooling": true,
+          "temperature": true,
+          "standaloneTimer": false,
+          "dosing": false,
+          "timeSync": true,
+          "ota": true
+        },
+        "limits": {
+          "lightChannelCount": 0,
+          "fanOutputCount": 1,
+          "temperatureSensorCount": 2,
+          "timerChannelCount": 0,
+          "dosingChannelCount": 0
+        }
+      },
+      "compatibility": {
+        "productKey": "COOLING_COOL_PRO_1F",
+        "productId": "com.aqualight.cooling.cool_pro_1f",
+        "family": "cooling",
+        "line": "cool_pro",
+        "model": "cool_pro_1f",
+        "hardwareRevision": "2.0"
+      },
+      "firmware": {
+        "version": "1.0.2",
+        "filename": "AquaLight-cooling_cool_pro_1f-v1.0.2-ota.bin",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/cooling_cool_pro_1f-v1.0.2/AquaLight-cooling_cool_pro_1f-v1.0.2-ota.bin",
+        "sha256": "b36f31adaa5431892d601787a51f210ee9d4e67ed8fd1424b7d2320a063a12d3",
+        "size": 1677632,
+        "format": "esp32-app-bin",
+        "otaSlotCompatible": true
+      },
+      "factory": {
+        "filename": "AquaLight-cooling_cool_pro_1f-v1.0.2-factory.zip",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/cooling_cool_pro_1f-v1.0.2/AquaLight-cooling_cool_pro_1f-v1.0.2-factory.zip",
+        "sha256": "dfa075176db79bc30e3e311ab9f1fed066d42b1b25a6d2b3553fe7675bbfe5ad",
+        "size": 1074554
+      }
+    }
+  ],
+  "releaseNotes": {
+    "schema": "aql.ota.release-notes.v1",
+    "defaultLocale": "tr",
+    "items": [
+      {
+        "tr": "Güncelleme ekranı yenilendi",
+        "en": "Update screen redesigned"
+      },
+      {
+        "tr": "Cihaz kararlılığı iyileştirildi",
+        "en": "Device stability improved"
+      },
+      {
+        "tr": "Bağlantı hatası giderildi",
+        "en": "Connection error fixed"
+      },
+      {
+        "tr": "Donma sorunu giderildi",
+        "en": "Freezing issue fixed"
+      }
+    ]
+  },
+  "signature": {
+    "scheme": "ECDSA_P256_SHA256",
+    "keyId": "aql-ota-manifest-2026-01",
+    "payloadHash": "f522c293c05b57da2c445a0ae59a21e3a2a1ea325e14b561abcb7420c2aac76d",
+    "value": "MEYCIQCeCYD0SH4XU/r60xKemxoZ8X93hXTAF8gWDR6r6Yl7WwIhANNFZNrBRqFQ5R57EwZRCWsZmxxLqAtjekQw6QDginMF"
+  }
+}
