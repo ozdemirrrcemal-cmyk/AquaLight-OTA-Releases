@@ -1,0 +1,104 @@
+{
+  "schema": "aql.ota.product-manifest.v1",
+  "brand": "AquaLight",
+  "channel": "stable",
+  "version": "1.0.1",
+  "tag": "light_wrgb_pro_elite-v1.0.1",
+  "releaseRepo": "ozdemirrrcemal-cmyk/AquaLight-OTA-Releases",
+  "generatedAt": "2026-09-18T18:45:35+00:00",
+  "platform": {
+    "framework": "arduino-esp32",
+    "core": "3.3.9",
+    "platform": "pioarduino/platform-espressif32#55.03.39",
+    "partitionTable": "aql_ota_16mb",
+    "normalOtaAssetType": "firmware.bin"
+  },
+  "artifacts": [
+    {
+      "env": "light_wrgb_pro_elite",
+      "product": {
+        "productKey": "LIGHT_WRGB_PRO_ELITE",
+        "productId": "com.aqualight.light.wrgb_pro_elite",
+        "brand": "AquaLight",
+        "family": "light",
+        "line": "wrgb_pro",
+        "model": "wrgb_pro_elite_120",
+        "displayName": "AquaLight WRGB Pro Elite 120",
+        "skuCode": "AQL-L-WPE120-GLB-BLK",
+        "hardwareRevision": "2.0",
+        "capabilities": {
+          "light": true,
+          "manualLight": true,
+          "lightProgram": true,
+          "lightPresets": true,
+          "lightSimulation": false,
+          "fan": true,
+          "cooling": true,
+          "temperature": true,
+          "standaloneTimer": false,
+          "dosing": false,
+          "timeSync": true,
+          "ota": true
+        },
+        "limits": {
+          "lightChannelCount": 4,
+          "fanOutputCount": 2,
+          "temperatureSensorCount": 1,
+          "timerChannelCount": 0,
+          "dosingChannelCount": 0
+        }
+      },
+      "compatibility": {
+        "productKey": "LIGHT_WRGB_PRO_ELITE",
+        "productId": "com.aqualight.light.wrgb_pro_elite",
+        "family": "light",
+        "line": "wrgb_pro",
+        "model": "wrgb_pro_elite_120",
+        "hardwareRevision": "2.0"
+      },
+      "firmware": {
+        "version": "1.0.1",
+        "filename": "AquaLight-light_wrgb_pro_elite-v1.0.1-ota.bin",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/light_wrgb_pro_elite-v1.0.1/AquaLight-light_wrgb_pro_elite-v1.0.1-ota.bin",
+        "sha256": "dbca58948ec22439007a1390c61decfe023d9b3fdd499aa6e079a195adcc174b",
+        "size": 1709312,
+        "format": "esp32-app-bin",
+        "otaSlotCompatible": true
+      },
+      "factory": {
+        "filename": "AquaLight-light_wrgb_pro_elite-v1.0.1-factory.zip",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/light_wrgb_pro_elite-v1.0.1/AquaLight-light_wrgb_pro_elite-v1.0.1-factory.zip",
+        "sha256": "95fc9c058e8c68cd35e8ad3112c9ad68fc49419d63a02602d0805ad7d14c7901",
+        "size": 1095444
+      }
+    }
+  ],
+  "releaseNotes": {
+    "schema": "aql.ota.release-notes.v1",
+    "defaultLocale": "tr",
+    "items": [
+      {
+        "tr": "Güncelleme ekranı yenilendi",
+        "en": "Update screen redesigned"
+      },
+      {
+        "tr": "Cihaz kararlılığı iyileştirildi",
+        "en": "Device stability improved"
+      },
+      {
+        "tr": "Bağlantı hatası giderildi",
+        "en": "Connection error fixed"
+      },
+      {
+        "tr": "Donma sorunu giderildi",
+        "en": "Freezing issue fixed"
+      }
+    ]
+  },
+  "signature": {
+    "scheme": "ECDSA_P256_SHA256",
+    "keyId": "aql-ota-manifest-2026-01",
+    "payloadHash": "9765442c54fb7c10b14eb2fd5a6e348830bfe838ab7326d6d894b1e44680e9b8",
+    "value": "MEMCH1lGapsU7ad39XX2hgTQ744jkw3/LuJPIQWbQ+q7FRoCIHU9cyH8+TwX1M795LwiWy1AK2exr1pYz2wsutO7N9W4"
+  }
+}
