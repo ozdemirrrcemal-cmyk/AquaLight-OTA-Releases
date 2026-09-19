@@ -2,10 +2,10 @@
   "schema": "aql.ota.product-manifest.v1",
   "brand": "AquaLight",
   "channel": "stable",
-  "version": "1.0.5",
-  "tag": "light_wrgb_pro_elite-v1.0.5",
+  "version": "1.0.6",
+  "tag": "light_wrgb_pro_elite-v1.0.6",
   "releaseRepo": "ozdemirrrcemal-cmyk/AquaLight-OTA-Releases",
-  "generatedAt": "2026-09-18T19:57:47+00:00",
+  "generatedAt": "2026-09-19T10:55:03+00:00",
   "platform": {
     "framework": "arduino-esp32",
     "core": "3.3.9",
@@ -57,19 +57,19 @@
         "hardwareRevision": "2.0"
       },
       "firmware": {
-        "version": "1.0.5",
-        "filename": "AquaLight-light_wrgb_pro_elite-v1.0.5-ota.bin",
-        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/light_wrgb_pro_elite-v1.0.5/AquaLight-light_wrgb_pro_elite-v1.0.5-ota.bin",
-        "sha256": "03dc7df81a6479f1f5075a20ff7b998ac053588133f5620aa8d08b978efd66a8",
-        "size": 1713120,
+        "version": "1.0.6",
+        "filename": "AquaLight-light_wrgb_pro_elite-v1.0.6-ota.bin",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/light_wrgb_pro_elite-v1.0.6/AquaLight-light_wrgb_pro_elite-v1.0.6-ota.bin",
+        "sha256": "42f27026621cac201bfb6ad029ba54a7bdf3f08fb570627f9ded6149cfe715dd",
+        "size": 1713696,
         "format": "esp32-app-bin",
         "otaSlotCompatible": true
       },
       "factory": {
-        "filename": "AquaLight-light_wrgb_pro_elite-v1.0.5-factory.zip",
-        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/light_wrgb_pro_elite-v1.0.5/AquaLight-light_wrgb_pro_elite-v1.0.5-factory.zip",
-        "sha256": "2392f2606f8d92e32cc8347b1b3da653581ec9ba13b69b18c734f34e76b842d1",
-        "size": 1098656
+        "filename": "AquaLight-light_wrgb_pro_elite-v1.0.6-factory.zip",
+        "url": "https://github.com/ozdemirrrcemal-cmyk/AquaLight-OTA-Releases/releases/download/light_wrgb_pro_elite-v1.0.6/AquaLight-light_wrgb_pro_elite-v1.0.6-factory.zip",
+        "sha256": "57dbcc34ea94993adc625c92ecf3e0bc203f1b0a3c857d90b7078598f85586fe",
+        "size": 1099087
       }
     }
   ],
@@ -98,7 +98,7 @@
   "signature": {
     "scheme": "ECDSA_P256_SHA256",
     "keyId": "aql-ota-manifest-2026-01",
-    "payloadHash": "e947013a76f6664f25d0952b6ce120fc554bbeef56d9e61a4b65731d814b57a6",
-    "value": "MEYCIQDpqaaX8lGekI0hXThDgOwSkEh6INzBNwl9YzbiPeIIUgIhAOlmxaLkw30cn0VKuJA6WEJgQ13OXk+MP5mPY6M1slYo"
+    "payloadHash": "0b103b9fd300ab6de87b6080b7c6b988fc22471eee9620a9d442cc675dcf8e42",
+    "value": "MEYCIQC4eJXKs64m87Ac984SfBRVXabUS2FmRtDujQWK8bGTSQIhAOpcpODxoWYeYxyg4S77vpCyi4XQWnEX8oYROaKEN77q"
   }
 }
